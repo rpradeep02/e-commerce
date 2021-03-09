@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="main-container">
+            <div class="navbar">
+                <div class="logo">
+                   <a href="index.html">
+                       <img src="images/logo.png" alt="Logo" width="50px">
+                   </a> 
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="product.html">Products</a></li>
+                        <li> <a href="index.html#about">About</a></li>
+                        <li> <a href="index.html#contact">Contact</a></li>
+                        <li> <a href="login.html">Account</a></li>
+                        <li>
+                            <a href="cart.html">
+                                <img src="images/cart.png" alt="Cart icon" width="30px" height="30px" color="white">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="images/menu.png" alt="menu icon" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>This is My <br>E-Commerce site</h1>
+                    <p>You can browse throught the site and select whatever latest and old games you want </br>This site has a product page, cart age, Account page and a checkout page.</p>
+                    <a href="index.html#product" class="btn">Check it out</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/csgo.png" alt="Intro-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-categories">
+        <a name="product"></a>
+        <div class="sub-container-1">
+            <h2 class="title">Lastest Games</h2>
+            <div class="row row-width">
+                <div class="col-4">
+                    <a href="product-details.html">
+                        <img src="images/action.jpg" alt="">
+                    </a>
+                    <a href="product-details.html"> <h4>Assassins Creed</h4> </a>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rs.3999</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html">
+                        <img src="images/nfs.jpg" alt="">
+                    </a>
+                    <h4>NFS Heat</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rs.3999</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html">
+                        <img src="images/pubg.jpg" alt="">
+                     </a>
+                    <h4>PUBG</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rs.3999</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html">
+                        <img src="images/witcher.jpg" alt="">
+                    </a>
+                    <h4>The Witcher 3</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        
+                    </div>
+                    <p>Rs.3999</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html">
+                        <img src="images/star-wars.jpg" alt="">
+                    </a>
+                    <h4>Star wars: JEDI fallen order</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rs.2999</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-details.html">
+                        <img src="images/UC4.jpg" alt="">
+                     </a>
+                    <h4>Uncharted 4</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>Rs.1999</p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="small-container">
+    <h2 class="title">Best selling</h2>
+       <div class="row row-width">
+           <div class="col-4">
+                <a href="product-details.html">
+                    <img src="images/odyssey.png" alt="odssey image">
+                </a>
+                <h4>Assassins Creed: Odyssey</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Rs.3999</p>
+            </div>
+           <div class="col-4">
+                <a href="product-details.html">
+                    <img src="images/dead.jpg" alt="odssey image">
+                </a>
+                <h4>Dead Space 3</h4>
+                
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.999</p>
+            </div>
+           <div class="col-4">
+                <a href="product-details.html">
+                    <img src="images/assassin-s-creed-origins.jpg" alt="odssey image">
+                </a>  
+              <h4>Assassins Creed: Origins</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.2999</p>
+            </div>
+           <div class="col-4">
+                <a href="product-details.html">
+                    <img src="images/crysis-3.jpg" alt="odssey image">
+                </a> 
+              <h4>crysis-3</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.899</p>
+            </div>
+       </div> 
+    </div>
+<!-- __________________Preorder_____________________ -->
+    <div class="pre-order">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <a href="product-details.html">
+                        <img src="images/cyberpunk-logo.png" alt="cyberpunk image" class="pre-order-img">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <p>
+                        CD Projekt Red has released some launch day statistics for Cyberpunk 2077, reporting the game reached eight million pre-orders.
+                    </p>
+                    <h1>Pre Order NOW</h1>
+                    <small>Cyberpunk is a subgenre of science fiction in a dystopian futuristic setting that tends to focus on a "combination of low-life and high tech" featuring advanced technological and scientific achievements, such as artificial intelligence and cybernetics. </small>
+                    <a href="product-details.html" class="btn">Pre-order now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- _____________________________brands_____________ -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/Logo_Ubisoft.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/Electronic_Arts.svg" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/cd-project-logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/Gameloft-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------footer------------- -->
+    <div class="footer">
+        <a name="about"></a>
+        <a name="contact"></a>
+        <div class="main-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, eveniet.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="play store image">
+                        <img src="images/app-store.png" alt="app-store image">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="logo image" width="50px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, eveniet.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Pradeep</p>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if( MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+        }
+    </script>
+</body>
+</html>
